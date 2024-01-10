@@ -1,0 +1,32 @@
+.l-header{
+   &__layout{
+   position: fixed;
+   display: flex;
+   width: 1080px;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 50px;
+   }
+   &__logo{
+      h1 a{
+         font-family: 'Dancing Script',sans-serif;
+         font-size: 28px;
+         font-weight: bold;
+         text-decoration: none;
+         color: $color;
+      }
+   }
+   .navbar{
+      ul{
+         display: flex;
+         align-items: center;
+         li a{
+            color: $color;
+            font-family: 'popping',sans-serif;
+            font-size: 12px;
+            font-weight: 500;
+            padding: 0 10px;
+         }
+      }
+   }
+}

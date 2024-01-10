@@ -1,0 +1,20 @@
+/* normalize.css
+------------------------ */
+@import 'normalize.css/normalize.css';
+
+//foundation
+@import 'foundation/reset';
+@import 'foundation/base';
+@import 'foundation/font';
+
+//layout
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/layout';
+
+//object
+@import 'object/component/btn';
+@import 'object/component/card';
+@import 'object/component/title';
+@import 'object/project/mainvisual';
+
